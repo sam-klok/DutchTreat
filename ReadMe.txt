@@ -24,18 +24,18 @@ https://stackoverflow.com/questions/50436910/ef-core-not-creating-tables-on-migr
 
 Whole EF commands used for migrations:
 
-C:\Users\SKlok\source\repos\DutchTreat\DutchTreat>dotnet ef database update
+C:\..\repos\DutchTreat\DutchTreat>dotnet ef database update
 Build started...
 Build succeeded.
 No migrations were applied. The database is already up to date.
 Done.
 
-C:\Users\SKlok\source\repos\DutchTreat\DutchTreat>dotnet ef migrations add InitialDb
+C:\..\repos\DutchTreat\DutchTreat>dotnet ef migrations add InitialDb
 Build started...
 Build succeeded.
 Done. To undo this action, use 'ef migrations remove'
 
-C:\Users\SKlok\source\repos\DutchTreat\DutchTreat>dotnet ef database update
+C:\..\repos\DutchTreat\DutchTreat>dotnet ef database update
 Build started...
 Build succeeded.
 Applying migration '20211120205158_InitialDb'.
